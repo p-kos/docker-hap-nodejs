@@ -9,7 +9,7 @@ RUN useradd --create-home --home-dir $HOME pi \
 	&& chown -R pi:pi $HOME
 
 WORKDIR $HOME
-# USER pi
 RUN echo "about to start installing..."
 RUN curl -sSL https://raw.githubusercontent.com/p-kos/docker-hap-nodejs/master/installHAPNodeJS | bash
+USER pi
 # RUN curl -sSL installHAPNodeJS | bash
