@@ -28,9 +28,10 @@ sudo apt-get install gcc g++ make -y
 sudo npm install -g node-gyp
 # sudo git clone --branch v0.4.27 https://github.com/KhaosT/HAP-NodeJS.git
 # sudo git clone https://github.com/KhaosT/HAP-NodeJS.git
-sudo git clone https://github.com/p-kos/HAP-NodeJS.git
-cd HAP-NodeJS/
-sudo rm -rf accessories/AirConditioner_accessory.js
-sudo npm install
-sudo npm install lodash@^4.0.0 --save
-sudo npm rebuild
+#sudo git clone https://github.com/p-kos/HAP-NodeJS.git
+#cd HAP-NodeJS/
+#sudo rm -rf accessories/AirConditioner_accessory.js
+#sudo npm install
+#sudo npm install lodash@^4.0.0 --save
+#sudo npm rebuild
+sudo npm install hap-nodejs
