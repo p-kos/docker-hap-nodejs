@@ -31,3 +31,5 @@ sudo git clone https://github.com/p-kos/HAP-NodeJS.git
 cd HAP-NodeJS/
 sudo rm -rf accessories/AirConditioner_accessory.js
 sudo npm install
+sudo npm install lodash@^4.0.0 --save
+sudo npm rebuild
